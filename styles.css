@@ -33,22 +33,6 @@ body {
     font-family: 'IndivisaFont';
 }
 
-/* -------------- dark mode
-body.dark-mode {
-    background-color: #121212;
-    color: #ffffff;
-}
-
-.header.dark-mode, .footer-container.dark-mode {
-    background-color: #1e1e1e;
-}
-
-.menu a.dark-mode, .footer-column a.dark-mode {
-    color: #ffffff;
-}
-*/
-
-/* Title styling */
 h1 {
     color: #C8102E;
     font-size: 2.1rem;
@@ -488,10 +472,10 @@ footer ul li a {
 .slide-image {
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit:contain;
 }
 
-/* Text area on each slide */
+/* Text area on each slide 
 .slide-text {
     position: absolute;
     bottom: 20px;
@@ -509,7 +493,7 @@ footer ul li a {
     align-items: center;
     border-radius: 20px;
 }
-
+*/
 /* Read more button */
 .read-more {
     background-color: #C8102E;
