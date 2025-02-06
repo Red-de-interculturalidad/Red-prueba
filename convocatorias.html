@@ -20,15 +20,14 @@
                     <li><a href="./publicaciones.html">Publicaciones</a></li>
                     <li><a href="./podcast.html">Podcast</a></li>
                     <li><a href="./laboratorio.html">Laboratorio de traducción</a></li>
-                    <!--<div class="language-selector">
-                        <select id="languageSelect" onchange="changeLanguage(this.value)">
-                            <option value="es">Español</option>
-                            <option value="en">English</option>                          
-                          <-- Add more languages as needed --
-                        </select>
-                    </div> -->
                 </ul>
             </nav>
+            <div class="language-selector">
+                <select id="languageSwitcher" onchange="changeLanguage(this.value)">
+                    <option value="index.html">Español</option>
+                    <option value="index-en.html">English</option>
+                </select>
+            </div>
         </div>
     </header>
     <div class="container-linea-title">
@@ -40,7 +39,7 @@
             <h2>Descripción</h2>
             <p>Las instituciones Lasallistas, están conformadas por diferentes regiones, culturas y religiones, dando paso a una comunidad intercultural. Pero esta realidad trae consigo importantes desafíos de análisis, implementación, toma de decisiones y adecuaciones que deben ir en concordancia con los Derechos Humanos y otras políticas.  
             <br><br>La interculturalidad es una profesión en la que también, en base a ella, se debe aprender a investigar y a trabajar. Por eso, la RIEI y nuestra casa de estudios invitan a estudiantes de pregrado, posgrado, investigadores y a toda la comunidad académica interesada, a asistir al “2do Congreso de Estudios sobre Interculturalidad” que tendrá su sede en la Universidad de la Salle Bajío, en la Ciudad de león, Guanajuato en México los días 20 y 21 de marzo de 2025. 
-        </p>
+            </p>
         </div>
     </div>
             
@@ -80,6 +79,9 @@
         </div>
     </div>
 
+    <div class="pdf-container">
+        <iframe id="pdf" src="./assets/programaPDF/Programa General 2o Congreso RIEI.pdf" frameborder="0"></iframe>  <!-- pdf frame -->
+    </div>
     <div class="container">
         <h1>Tipos de Participación en el Congreso de Interculturalidad</h1>
         <div class="content-wrapper">
@@ -109,6 +111,7 @@
     </div>
     
     <script src="script.js"></script>
+    <script src="js/languageSwitcher.js"></script>
     
     <script>
 let currentIndex = 0;
