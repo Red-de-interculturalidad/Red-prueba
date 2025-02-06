@@ -1360,7 +1360,7 @@ footer ul li a {
 @media (max-width: 1024px) { 
     .pdf-container {
         width: 90%;
-        height: 80vh;
+        height: 30vh;
     }
 }
 
@@ -1419,7 +1419,7 @@ footer ul li a {
 
     .pdf-container {
         width: 95%;
-        height: 70vh;
+        height: 30vh;
     }
 }
 
